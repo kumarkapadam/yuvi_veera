@@ -1,5 +1,5 @@
-#if elif else
-#check number is positive  negitive  and zero
+# if elif else
+# check number is positive  negitive  and zero
 """num = int(input("enter any number:"))
 if num>0:
     print("positive number")
@@ -72,11 +72,11 @@ num = 5
 avg = (telugu + hindi + english + maths + science)//num
 print(avg)
 
-if avg >=90 and avg<=100:
+if avg >=90:
     print('A Grade')
-elif avg >=70 and avg <90:
+elif avg >=70:
     print("B Grade ")
-elif avg >= 60 and avg>50:
+elif avg >= 60:
     print("C Grade")
 else:
     print("Fail")
@@ -85,7 +85,7 @@ else:
 year = int(input("enter year"))
 
 if (year % 4) == 0:
-    if(year % 100) == 0:
+    if (year % 100) == 0:
         if (year % 400) == 0:
             print(year, "is a leap year")
         else:
@@ -93,9 +93,4 @@ if (year % 4) == 0:
     else:
         print(year, "is a leap year")
 else:
-   print(year, "is not a leap year")
-
-
-
-
-
+    print(year, "is not a leap year")
