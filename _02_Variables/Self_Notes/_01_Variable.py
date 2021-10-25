@@ -27,38 +27,20 @@ print("starts with letter",a)
 11="hai" 
 print(11) #syntax error cannot assign to literal """
 
-a=10
-b=20
-print(id(a)) #1964346862160
-print(id(b)) #1964346862480
-
-x=y=10
-print(id(x)) #1595959175760
-print(id(y)) #1595959175760
-y=20
-print(id(x)) #2582201133648
-print(id(y)) #2582201133968
-#integer
-a=19
-print(type(a))
-print(a)
 
 
-#float
-a=9.5
-print(type(a))
-print(a)
+_10=10
+print("_10 is",_10)
+
+"""else = wrong
+print(else)  # syntax error """
+
+even_num =10
+print("even_number is",even_num)
 
 
-#string
-str = 'welcome '
-print(str)
-print(type(str))
 
-#complex
-com=complex(2,3)
-print(type(com))
-print(com)
+
 
 
 

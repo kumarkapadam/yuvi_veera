@@ -1,12 +1,12 @@
 # if elif else
 # check number is positive  negitive  and zero
-"""num = int(input("enter any number:"))
+num = int(input("enter any number:"))
 if num>0:
     print("positive number")
 elif num == 0:
     print("---zero----")
 else:
-    print("negitive number") """
+    print("negitive number")
 
 """
 num =int(input("enter any number"))

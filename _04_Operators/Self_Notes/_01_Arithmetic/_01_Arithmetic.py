@@ -1,13 +1,15 @@
+
 #arithmetic operators
+"""arithmetic operations used to perform mathematical operations likeaddition ,subtraction"""
 """
 a=int(input("enter a number:"))
 b=int(input("enter b number:"))
 print("addition:",a+b)
 print("subtraction",a-b)
 print("multiplication:",a*b)
-print("division:",a%b)
-print("modulus:",a//b)
-print("modulus:",a/b)
+print("division:",a/b)
+print("modulus:",a%b)
+print("floor division:",a//b)
 print("exponential",a**2)
  """
 print("value is ",10)
