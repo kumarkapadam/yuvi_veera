@@ -12,38 +12,35 @@
 
 '''
 
-# 1.Builtin functions 80%
-
-
-
-
-# 2. Algorithm  80%
-
+# 1.Builtin functions
 string =  input("enter any string ")
-
-dup = []
-
-for char in string:
-    if string.count(char) > 1:
-         if char not in dup:
-             dup.append(char)
-print(dup)
+count = 0
+for str in string:
+    count +=1
+print(count) 
 
 
-# 3 Using Functions  ==> 50 programs
+
+
+
+# 2. Algorithm
+
+
+
+# 3 Using Functions
 print("--------3 Using Functions----------")
 
 
-# 4 OOPS              ==> 30 programs
+# 4 OOPS
 print("--------4 Object Oriented----------")
 
-# 5 Exception handling  ==> 15 programs
+# 5 Exception handling
 print("--------5 Exception handling----------")
 
-# 6 File Handling  ==> 10 programs
+# 6 File Handling
 print("--------6 File Handling----------")
 
-# 7 Database interaction MVC  ==> 5 programs
+# 7 Database interaction MVC
 print("--------7 Database interaction----------")
 
 
