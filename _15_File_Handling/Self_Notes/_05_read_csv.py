@@ -1,6 +1,6 @@
-"""
 import csv
-with open("username.csv",'r') as csv_file:
+
+with open("username.csv", 'r') as csv_file:
     csv_reader = csv.reader(csv_file)
     print(csv_reader)
     print(type(csv_reader))
@@ -11,16 +11,12 @@ with open("username.csv",'r') as csv_file:
         print(line[2])
         print(line[3])
 
-
-with open('new_names.csv','w') as new_file:
-csv_writer = csv.writer(new_file , delimiter = '_')
+with open('new_names.csv', 'w') as new_file:
+    csv_writer = csv.writer(new_file, delimiter='_')
+    print(csv_writer)
 
 for line in csv_reader:
-   csv_writer.writerow(line)
-
-"""
-"""
-import csv
+    csv_writer.writerow(line)
 
 with open("username.csv", 'r') as csv_file:
     csv_read = csv.reader(csv_file)
@@ -44,11 +40,14 @@ with open("username.csv", 'r') as csv_file:
         for line in csv_read:
             csv_write.writerow(line)
 
-
-"""
 import csv
-with open("username1.csv",'r') as csv_read:
-     csv_file = csv.DictReader(csv_read)
-     print(csv_file)
-     for line in csv_file:
-         print(line)
+
+with open("username1.csv", 'r') as csv_read:
+    csv_file = csv.DictReader(csv_read)
+    print(csv_file)
+    for line in csv_file:
+        print(line)
+
+with open("username3.csv", 'w') as csv_file:
+    csv_write = csv.reader(csv_file)
+    print(csv_write)

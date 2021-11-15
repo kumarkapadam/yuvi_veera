@@ -35,8 +35,9 @@ for i in read:
         x=i.split()
     print(x[0]) """
 
-6
 
+for i in range(ord('a'),ord('z')):
+    print(chr(i))
 
 
 

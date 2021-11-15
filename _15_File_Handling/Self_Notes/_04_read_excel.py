@@ -1,8 +1,11 @@
-import csv
+# read and write excel files
+# install =======   pip install openpyxl
 
-# read the excel file
+"""
+import openpyxl
 
-ex_file = read_csv("C:\\Users\\Kumar\\Desktop\datakum1",'r')
-file = ex_file.read()
-print(file)
+file = openpyxl.load_workbook("")
+print(type(file))
+"""
 
+print(ord('A'))
