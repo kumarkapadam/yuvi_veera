@@ -1,0 +1,1 @@
+1. Easy to code  2. Free and Open Source 3. Object-Oriented Language4. High-Level Language,5. Python is Portable language

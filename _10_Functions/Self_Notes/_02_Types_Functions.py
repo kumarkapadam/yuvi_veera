@@ -121,7 +121,27 @@ def sorted(list):
 
 sort = sorted(list)
 print("sorted list :",sort)
-"""
+
+print("----------------with parameter with return type----------------")
+def big(a,b,c):
+    if a>b:
+       return a
+    elif b>c:
+         return b
+    else:
+        return c
+op=big(10,20,13)
+print("the highest value :",op)  """
+
+
+def big(a,b,c):
+    if a>b:
+       print("highest value ",a)
+    elif b>c:
+          print("highest value",b)
+    else:
+        print("highest value",c)
+op=big(10,20,13)
 
 
 

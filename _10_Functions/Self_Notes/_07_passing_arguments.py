@@ -4,7 +4,7 @@
 2. Default arguments
 3. Keyword arguments (Named arguments)
 '''
-x = 10    # int x = 10
+x = 10  # int x = 10
 
 """
 # 1. Positional arguments (Required arguments)
@@ -68,7 +68,7 @@ stu_det('kiran',18,'SKU')
 def stu_det(name,college ='jntuh',course ='pyhton'):
     print(f'student name {name} college is {college} course is {course}')
 
-name = input("enter name:")    """
+name = input("enter name:")    
 
 
 
@@ -91,4 +91,35 @@ def stu_det(name,roll,college="JNTUH"):
         else:
             print('fail')
 #stu_det('kumar',10)
-stu_det('kiran',18,'sku')
+stu_det('kiran',18,'sku')   
+
+print("------------------keyword arguments-------------------")
+def sum(a,b,c):
+    res = a+b+c
+    print("the sum of the numbers:",res)
+sum(a=10,c=20,b=15)
+sum(a=8,b=2,c=15)
+sum(10,20,40)
+sum(c=3,a=2,b=10)
+sum(10,c=10,b=5)
+
+string=input("Enter string:")
+word=input("Enter word:")
+a=[]
+count=0
+a=string.split(" ")
+for i in range(0,len(a)):
+      if(word==a[i]):
+            count=count+1
+print("Count of the word is:")
+print(count) """
+
+
+
+
+
+
+
+
+
+

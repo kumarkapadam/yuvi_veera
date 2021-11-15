@@ -1,10 +1,6 @@
 # P01. REQ : Find length of given string   ie., "Hello World"
 
-'''
-1. CRUD       -retrieve
-2. STATE      - string / input()
-3. BEHAVIOR   - + operator / for loop
-'''
+
 '''
 1. CRUD       -->  Retrieval
 2. STATE      -->  string 
@@ -28,7 +24,6 @@ message = 'Hello World'  # static way
 
 print("Length of given string : ", len(message))
 
-
 # 2. Algorithm  80%
 
 print("--------2. Algorithm----------")
@@ -42,7 +37,6 @@ print("Length of given string : ", le)
 # 3 Using Functions  ==> 50 programs
 print("--------3 Using Functions----------")
 
-
 # 4 OOPS              ==> 30 programs
 print("--------4 Object Oriented----------")
 
@@ -54,8 +48,6 @@ print("--------6 File Handling----------")
 
 # 7 Database interaction MVC  ==> 5 programs
 print("--------7 Database interaction----------")
-
-
 
 # 8 UI Interaction   ==> 3 programs
 print("--------8 UI Interaction----------")
