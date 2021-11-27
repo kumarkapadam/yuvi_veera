@@ -1,57 +1,43 @@
-# P01 Req: sum of the elements in a list
+print("*********************   0.Mathematics          *********************")
 
+print("*********************   1. Builtin Functions   *********************")
 
-'''
-1. CRUD       -->  Retrieval
-2. STATE      -->  list
-3. BEHAVIOR   -->    |  =   +=    |   for
-'''
+list = [1, 10, 11, 12, 8, 3, 4, 11, 15, 5]
+print("length of the list:", len(list))
 
-# 0. Mathematics 80%
-'''
-1. Define the list
-2. Take initial sum as 0
-3. Start reading it. 
-4. While reading each char, sum of the elements
-'''
+print(" ********************   2. Algorithm            ********************")
 
-# 1.Builtin functions 80%
-
-print("-----1. Builtin Functions--------")
-
-list = [1,10,11,12,8,3,4,11,15,5]
-print("length of the list:",len(list))
-
-# 2. Algorithm  80%
-
-print("--------2. Algorithm----------")
-
-list = [10,14,13,17,11,15,19]
-count =0
+list = [10, 14, 13, 17, 11, 15, 19, 11, 11, 13, 11]
+count = 0
 for i in list:
-    count+=1
-print("count of the list:",count)
+    count += 1
+print("count of the list:", count)
+print("how many times repeat 11 in list", list.count(11))
 
+print("*** method-2 ****")
+print("   specified indexes    ")
+print("how many times repeat 13 in list :", list.count(13))
 
+print(" using collections ")
 
-# 3 Using Functions  ==> 50 programs
-print("--------3 Using Functions----------")
+from collections import Counter
 
+MyList = ["m", "n", "m", "o", "o", "m", "o"]
 
+duplicate_dict = Counter(MyList)
 
-# 4 OOPS              ==> 30 programs
-print("--------4 Object Oriented----------")
+print(duplicate_dict)  # to get occurrence of each of the element.
 
-# 5 Exception handling  ==> 15 programs
-print("--------5 Exception handling----------")
+print("\nNumber of Occurrences of m is the list: ", duplicate_dict['m'])
 
-# 6 File Handling  ==> 10 programs
-print("--------6 File Handling----------")
+print(" ********************   3 Using Functions       ********************")
 
-# 7 Database interaction MVC  ==> 5 programs
-print("--------7 Database interaction----------")
+print(" ********************   4 Object Oriented       ********************")
 
+print(" ********************   5 Exception handling   ********************")
 
+print(" ********************   6 File Handling         ********************")
 
-# 8 UI Interaction   ==> 3 programs
-print("--------8 UI Interaction----------")
+print(" ********************   7 Database interaction  ********************")
+
+print(" ********************   8 UI Interaction       ********************")

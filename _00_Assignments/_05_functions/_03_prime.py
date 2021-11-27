@@ -1,13 +1,21 @@
 # P01 Req: sum of the elements in a list
 
 
-'''
+"""
 1. CRUD       -->  Retrieval
-2. STATE      -->  list
-3. BEHAVIOR   -->    |  =   +=    |   for
-'''
-# 3 Using Functions  ==> 50 programs
-print("--------3 Using Functions----------")
+2. STATE      -->  integer
+3. BEHAVIOR   -->  =   ==   if   for
+"""
+
+print("*******************   mathematics   **********************")
+"""
+
+
+"""
+
+
+
+print("*****************    using functions  *********************")
 
 
 def prime(num):

@@ -1,56 +1,38 @@
-# P01 Req: sum of the elements in a list
+#
 
+print("*********************   0.Mathematics          *********************")
 
-'''
-1. CRUD       -->  Retrieval
-2. STATE      -->  list
-3. BEHAVIOR   -->    |  =   +=    |   for
-'''
+print("*********************   1. Builtin Functions   *********************")
 
-# 0. Mathematics 80%
-'''
-1. Define the list
-2. Take initial sum as 0
-3. Start reading it. 
-4. While reading each char, sum of the elements
-'''
-
-# 1.Builtin functions 80%
-
-print("-----1. Builtin Functions--------")
-
-list  = [1,2,3,4,5]
-list1 = [1,10,13,15,16]
+list = [1, 2, 3, 4, 5]
+list1 = [1, 10, 13, 15, 16]
 print("------convert list into set--------")
 list = set(list)
-list1 =set(list1)
-print("difference between two list:",list - list1)
+list1 = set(list1)
+print("difference between two list:", list - list1)
 
-# 2. Algorithm  80%
+print(" ********************   2. Algorithm            ********************")
 
-print("--------2. Algorithm----------")
+list2 = [1, 2, 3, 4, 5]
+list1 = [1, 10, 13, 15, 16]
+if True:
+    list2 = set(list2)
+    list1 = set(list1)
+    list3 = list2-list1
+    list4 = list1-list2
+    print(list3)
+    print(list4)
+else:
+     pass
 
+print(" ********************   3 Using Functions       ********************")
 
+print(" ********************   4 Object Oriented       ********************")
 
+print(" ********************   5 Exception handling   ********************")
 
-# 3 Using Functions  ==> 50 programs
-print("--------3 Using Functions----------")
+print(" ********************   6 File Handling         ********************")
 
+print(" ********************   7 Database interaction  ********************")
 
-
-# 4 OOPS              ==> 30 programs
-print("--------4 Object Oriented----------")
-
-# 5 Exception handling  ==> 15 programs
-print("--------5 Exception handling----------")
-
-# 6 File Handling  ==> 10 programs
-print("--------6 File Handling----------")
-
-# 7 Database interaction MVC  ==> 5 programs
-print("--------7 Database interaction----------")
-
-
-
-# 8 UI Interaction   ==> 3 programs
-print("--------8 UI Interaction----------")
+print(" ********************   8 UI Interaction       ********************")

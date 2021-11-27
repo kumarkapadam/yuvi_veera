@@ -90,4 +90,3 @@ file1 = open("file1.txt", 'r')
 x = file1.readline()
 print(type(x))
 print(x)
- 

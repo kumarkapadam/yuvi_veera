@@ -1,54 +1,32 @@
-# P01 Req: sum of the elements in a list
+print("*********************   0.Mathematics          *********************")
 
+print("*********************   1. Builtin Functions   *********************")
+list1 = [1, 10, 11, 12, 8, 3, 4, 11, 15, 5]
+print("normal list :", list1)
+list1.sort()
+print(" list1 is :", list1)
+print("second smaller number in list:", list1[-2])
 
-'''
-1. CRUD       -->  Retrieval
-2. STATE      -->  list
-3. BEHAVIOR   -->    |  =   +=    |   for
-'''
+print(" ********************   2. Algorithm            ********************")
 
-# 0. Mathematics 80%
-'''
-1. Define the list
-2. Take initial sum as 0
-3. Start reading it. 
-4. While reading each char, sum of the elements
-'''
+list2 = [10, 2, 3, 4, 5, 7, 98, 100, 12, 34]
+for i in range(len(list2)):
+    for j in range(len(list2)):
+        if list2[i] < list2[j]:
+            list2[i], list2[j] = list2[j], list2[i]
+print(list2)
+print("ascending order :", list2)
+print("second largest number in list:", list2[-2])
+print("second smallest number in list:", list2[1])
 
-# 1.Builtin functions 80%
+print(" ********************   3 Using Functions       ********************")
 
-print("-----1. Builtin Functions--------")
+print(" ********************   4 Object Oriented       ********************")
 
-list = [1,10,11,12,8,3,4,11,15,5]
-print("normal list :",list)
-list.sort()
-print("second smaller number in list:",list[1])
+print(" ********************   5 Exception handling   ********************")
 
-# 2. Algorithm  80%
+print(" ********************   6 File Handling         ********************")
 
-print("--------2. Algorithm----------")
+print(" ********************   7 Database interaction  ********************")
 
-
-
-
-# 3 Using Functions  ==> 50 programs
-print("--------3 Using Functions----------")
-
-
-
-# 4 OOPS              ==> 30 programs
-print("--------4 Object Oriented----------")
-
-# 5 Exception handling  ==> 15 programs
-print("--------5 Exception handling----------")
-
-# 6 File Handling  ==> 10 programs
-print("--------6 File Handling----------")
-
-# 7 Database interaction MVC  ==> 5 programs
-print("--------7 Database interaction----------")
-
-
-
-# 8 UI Interaction   ==> 3 programs
-print("--------8 UI Interaction----------")
+print(" ********************   8 UI Interaction       ********************")

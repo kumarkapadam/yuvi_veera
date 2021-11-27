@@ -1,58 +1,33 @@
-# P01 Req: sum of the elements in a list
+#  common elements from list2
 
+print("*********************   0.Mathematics          *********************")
 
-'''
-1. CRUD       -->  Retrieval
-2. STATE      -->  list
-3. BEHAVIOR   -->    |  =   +=    |   for
-'''
+print("*********************   1. Builtin Functions   *********************")
 
-# 0. Mathematics 80%
-'''
-1. Define the list
-2. Take initial sum as 0
-3. Start reading it. 
-4. While reading each char, sum of the elements
-'''
+list1 = [12,19,13,1,5,10,25]
+list2 = [10,12,15,14,13,15,19]
 
-# 1.Builtin functions 80%
+print("************** method-1 using intersection ***********")
+print("common elements in list2")
+x = set(list2) - set(list1)
+print("common elements from list2 ",x)
 
-print("-----1. Builtin Functions--------")
-
-list1 = [1,2,3,4,5,6,7]
-list2 = [1,2,10,11,14,16,15]
-list1 = set(list1)
-list2 =set(list2)
-print("common elements in the list",list1 & list2)
-
-# 2. Algorithm  80%
-
-print("--------2. Algorithm----------")
-
-list = [10,20,30,40,50]
-sum = 0
-for i in list:
-    sum +=i
-print("sum of the list is:",sum)
-
-# 3 Using Functions  ==> 50 programs
-print("--------3 Using Functions----------")
+print("************** method-2 using & symbol ***********")
+print("common elements from list2 ", set(list1) & set(list2))
 
 
 
-# 4 OOPS              ==> 30 programs
-print("--------4 Object Oriented----------")
 
-# 5 Exception handling  ==> 15 programs
-print("--------5 Exception handling----------")
+print(" ********************   2. Algorithm            ********************")
 
-# 6 File Handling  ==> 10 programs
-print("--------6 File Handling----------")
+print(" ********************   3 Using Functions       ********************")
 
-# 7 Database interaction MVC  ==> 5 programs
-print("--------7 Database interaction----------")
+print(" ********************   4 Object Oriented       ********************")
 
+print(" ********************   5 Exception handling   ********************")
 
+print(" ********************   6 File Handling         ********************")
 
-# 8 UI Interaction   ==> 3 programs
-print("--------8 UI Interaction----------")
+print(" ********************   7 Database interaction  ********************")
+
+print(" ********************   8 UI Interaction       ********************")

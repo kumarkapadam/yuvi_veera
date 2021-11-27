@@ -1,59 +1,55 @@
-# P01 Req: sum of the elements in a list
+# large number in list
+print("*********************   0.Mathematics          *********************")
+
+print("*********************   1. Builtin Functions   *********************")
+list1 = [10, 11, 17, 100, 14, 6, 123, 112, 12, 674, 453, 567]
+print("normal list is :", list1)
+print("largest number in list :", max(list1))
+print("smaller number in list :", min(list1))
+
+print(" ********************   2. Algorithm            ********************")
+
+list1 = [10, 11, 17, 100, 14, 6, 123, 112, 12, 674, 453, 567]
+for i in range(len(list1)):
+    for j in range(len(list1)):
+        if list1[i] < list1[j]:
+            list1[i], list1[j] = list1[j], list1[i]
+print(list1)
+print("min to max(ascending order is)",list1)
+print("maximum value  is            :",list1[-1])
+print("minimum value  is            :",list1[0])
+print(" ********************   3 Using Functions       ********************")
+
+list2 = []
 
 
-'''
-1. CRUD       -->  Retrieval
-2. STATE      -->  list
-3. BEHAVIOR   -->    |  =   +=    |   for
-'''
-
-# 0. Mathematics 80%
-'''
-1. Define the list
-2. Take initial sum as 0
-3. Start reading it. 
-4. While reading each char, sum of the elements
-'''
-
-# 1.Builtin functions 80%
-
-print("-----1. Builtin Functions--------")
-
-list = [10,20,100,1,2,10,20]  # static way
-# message = input("Enter any string : ")
-print("sorted list is:",list.sort())
-
-print("largest number in the list:",list[-1])
+def max_val(list2):
+    for i in range(len(list2)):
+        for j in range(len(list2)):
+            if list2[i] < list2[j]:
+                list2[i], list2[j] = list2[j], list2[i]
+    return list2
 
 
-# 2. Algorithm  80%
-
-print("--------2. Algorithm----------")
-
-list = [10,20,30,40,50]
-sum = 0
-for i in list:
-    sum +=i
-print("sum of the list is:",sum)
-
-# 3 Using Functions  ==> 50 programs
-print("--------3 Using Functions----------")
-
-
-
-# 4 OOPS              ==> 30 programs
-print("--------4 Object Oriented----------")
-
-# 5 Exception handling  ==> 15 programs
-print("--------5 Exception handling----------")
-
-# 6 File Handling  ==> 10 programs
-print("--------6 File Handling----------")
-
-# 7 Database interaction MVC  ==> 5 programs
-print("--------7 Database interaction----------")
+num = int(input("enter how many numbers  to be inserted:"))
+for i in range(num):
+    elem = int(input("enter number"))
+    list2.append(elem)
+max_val(list2)
+print("sorted list is    :", list2)
+print("smaller number is :", list2[0])
+print("biggest number is :", list2[-1])
 
 
 
-# 8 UI Interaction   ==> 3 programs
-print("--------8 UI Interaction----------")
+
+
+print(" ********************   4 Object Oriented       ********************")
+
+print(" ********************   5 Exception handling   ********************")
+
+print(" ********************   6 File Handling         ********************")
+
+print(" ********************   7 Database interaction  ********************")
+
+print(" ********************   8 UI Interaction       ********************")

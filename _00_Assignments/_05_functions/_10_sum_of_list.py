@@ -5,6 +5,12 @@
 '''
 
 
+"""
+1. Take the number of elements to be stored in the list as input.
+2. Use a for loop to input elements into the list.
+3. Calculate the total sum of elements in the list.
+"""
+
 def sum(list):
     sum =0
     for i in list:

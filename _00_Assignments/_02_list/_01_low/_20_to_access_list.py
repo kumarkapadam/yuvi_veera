@@ -1,52 +1,41 @@
+# To access index of list
 
-# P01 Req: sum of the elements in a list
+print("*********************   0.Mathematics          *********************")
 
+print("*********************   1. Builtin Functions   *********************")
+list1 = [1, 2, 3, 4, 5, 6, 7, 8]
+for index, value in enumerate(list1, start=0):
+    print(index, value)
+print()
 
-'''
-1. CRUD       -->  Retrieval
-2. STATE      -->  list
-3. BEHAVIOR   -->    |  =   +=    |   for
-'''
+names = ['kumar', 'kiran', 'yuvi', 'shiva', 'karthik']
+print("index  is :", names.index('kumar'))
 
-# 0. Mathematics 80%
+for i in names:
+    print(i)
 
+for index, i in enumerate(names):
+    print(index, i)
 
-# 1.Builtin functions 80%
+print(" ********************   2. Algorithm            ********************")
 
-print("-----1. Builtin Functions------")
-
-# 2. Algorithm  80%
-
-list1 = [45, 23, 56, 85, 38, 92, 18]
 for i in range(len(list1)):
-    print(i, list1[i])
+    print(i, end=' ')
+    print(list1[i])
 
+names = ['kumar', 'kiran', 'yuvi', 'shiva', 'karthik']
+print("  start ")
+for i in range(len(names)):
+    print(i, names[i])
 
+print(" ********************   3 Using Functions       ********************")
 
+print(" ********************   4 Object Oriented       ********************")
 
-print("--------2. Algorithm-----------")
+print(" ********************   5 Exception handling   ********************")
 
-str = input("enter string:")
-list_str = list(str.split(" "))
-print(list_str)
+print(" ********************   6 File Handling         ********************")
 
+print(" ********************   7 Database interaction  ********************")
 
-
-
-# 3 Using Functions  ==> 50 programs
-print("--------3 Using Functions----------")
-
-# 4 OOPS              ==> 30 programs
-print("--------4 Object Oriented----------")
-
-# 5 Exception handling  ==> 15 programs
-print("--------5 Exception handling----------")
-
-# 6 File Handling  ==> 10 programs
-print("--------6 File Handling----------")
-
-# 7 Database interaction MVC  ==> 5 programs
-print("--------7 Database interaction----------")
-
-# 8 UI Interaction   ==> 3 programs
-print("--------8 UI Interaction----------")
+print(" ********************   8 UI Interaction       ********************")

@@ -1,13 +1,6 @@
 # P01 Req: sum of the elements in a list
 
-
-'''
-1. CRUD       -->  Retrieval
-2. STATE      -->  list
-3. BEHAVIOR   -->    |  =   +=    |   for
-'''
-
-# 0. Mathematics 80%
+print("*********************   0.Mathematics          *********************")
 '''
 1. Define the list
 2. Take initial sum as 0
@@ -15,44 +8,57 @@
 4. While reading each char, sum of the elements
 '''
 
-# 1.Builtin functions 80%
+print("*********************   1. Builtin Functions   *********************")
+list1 = [10, 20, 30, 40, 50]  # static way
+print("sum of the list : ", sum(list1))
 
-print("-----1. Builtin Functions--------")
+print(" ********************   2. Algorithm            ********************")
+print("****** method1 ********")
+list1 = [10, 20, 30, 40, 50]
+sum1 = 0
+for i in list1:
+    sum += i
+print("sum of the list is:", sum1)
 
-list = [10,20,30,40,50]  # static way
-# message = input("Enter any string : ")
+print("****** method2 ********")
 
-print("sum of the list : ", sum(list))
+sum1= 0
+list2 = []
+num = int(input('enter how many numbers to be inserted:'))
+for i in range(num):
+    elem = int(input("enter number :"))
+    list2.append(elem)
+print("list2   is  :", list2)
 
+for i in list2:
+    sum += i
+print(" sum of the list is :", sum)
 
-# 2. Algorithm  80%
+print(" ********************   3 Using Functions       ********************")
 
-print("--------2. Algorithm----------")
-
-list = [10,20,30,40,50]
-sum = 0
-for i in list:
-    sum +=i
-print("sum of the list is:",sum)
-
-# 3 Using Functions  ==> 50 programs
-print("--------3 Using Functions----------")
-
-
-
-# 4 OOPS              ==> 30 programs
-print("--------4 Object Oriented----------")
-
-# 5 Exception handling  ==> 15 programs
-print("--------5 Exception handling----------")
-
-# 6 File Handling  ==> 10 programs
-print("--------6 File Handling----------")
-
-# 7 Database interaction MVC  ==> 5 programs
-print("--------7 Database interaction----------")
+list2 = []
 
 
+def sum_list(list):
+    sum1 = 0
+    for i in list2:
+        sum1 += i
+    print(" sum of the list is :", sum1)
 
-# 8 UI Interaction   ==> 3 programs
-print("--------8 UI Interaction----------")
+
+num = int(input('enter how many numbers to be inserted:'))
+for i in range(num):
+    elem = int(input("enter number :"))
+    list2.append(elem)
+print("list2   is  :", list2)
+sum_list(list2)
+
+print(" ********************   4 Object Oriented       ********************")
+
+print(" ********************   5 Exception handling   ********************")
+
+print(" ********************   6 File Handling         ********************")
+
+print(" ********************   7 Database interaction  ********************")
+
+print(" ********************   8 UI Interaction       ********************")

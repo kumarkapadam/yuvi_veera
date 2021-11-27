@@ -17,32 +17,28 @@ print("-----1. Builtin Functions------")
 # 2. Algorithm  80%
 
 
-
-
-
 print("--------2. Algorithm-----------")
 
 import random
 
 names = ['kumar', 'kiran', 'yuvi', 'veera', 'shiva', 'raju']
 
-print("random name ",random.choice(names))
+print("random name ", random.choice(names))
 
+print("*********************   0.Mathematics          *********************")
 
-# 3 Using Functions  ==> 50 programs
-print("--------3 Using Functions----------")
+print("*********************   1. Builtin Functions   *********************")
 
-# 4 OOPS              ==> 30 programs
-print("--------4 Object Oriented----------")
+print(" ********************   2. Algorithm            ********************")
 
-# 5 Exception handling  ==> 15 programs
-print("--------5 Exception handling----------")
+print(" ********************   3 Using Functions       ********************")
 
-# 6 File Handling  ==> 10 programs
-print("--------6 File Handling----------")
+print(" ********************   4 Object Oriented       ********************")
 
-# 7 Database interaction MVC  ==> 5 programs
-print("--------7 Database interaction----------")
+print(" ********************   5 Exception handling   ********************")
 
-# 8 UI Interaction   ==> 3 programs
-print("--------8 UI Interaction----------")
+print(" ********************   6 File Handling         ********************")
+
+print(" ********************   7 Database interaction  ********************")
+
+print(" ********************   8 UI Interaction       ********************")

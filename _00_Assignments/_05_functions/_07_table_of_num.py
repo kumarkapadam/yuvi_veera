@@ -1,3 +1,12 @@
+'''
+
+1. CRUD       -->  Retrieval
+2. STATE      -->  list
+3. BEHAVIOR   -->  for
+'''
+
+
+
 """
 1. Take in a number and store it in a variable.
 2. Print the multiplication tables of a given number.

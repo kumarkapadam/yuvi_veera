@@ -48,6 +48,7 @@ with open("username1.csv", 'r') as csv_read:
     for line in csv_file:
         print(line)
 
+
 with open("username3.csv", 'w') as csv_file:
     csv_write = csv.reader(csv_file)
     print(csv_write)

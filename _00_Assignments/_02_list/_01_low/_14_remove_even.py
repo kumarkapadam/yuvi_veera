@@ -19,40 +19,50 @@
 
 print("-----1. Builtin Functions--------")
 
-num =[]
-for i in range(1,100):
-    if i%2 == 0:
+# Reverse list of elements and print in upper case
+
+print("*********************   0.Mathematics          *********************")
+
+print("*********************   1. Builtin Functions   *********************")
+
+print(" ********************   2. Algorithm            ********************")
+num = []
+for i in range(1, 100):
+    if i % 2 == 0:
         continue
     else:
         num.append(i)
-print("remove evennumbers")
-print("numbers in list :",num)
+print("remove even_numbers")
+print("numbers in list :", num)
 
-# 2. Algorithm  80%
+print(" ********************   3 Using Functions       ********************")
 
-print("--------2. Algorithm----------")
-
-
+even = []
 
 
-# 3 Using Functions  ==> 50 programs
-print("--------3 Using Functions----------")
+def rem_even(list1):
+    for i in list1:
+        if i % 2 == 0:
+            pass
+        else:
+            even.append(i)
 
 
+list1 = []
+num = int(input("enter how many numbers to be inserted "))
+for i in range(num):
+    elem = int(input("enter element :"))
+    list1.append(elem)
+print("list is :", list1)
+rem_even(list1)
+print("removing even numbers in list :", even)
 
-# 4 OOPS              ==> 30 programs
-print("--------4 Object Oriented----------")
+print(" ********************   4 Object Oriented       ********************")
 
-# 5 Exception handling  ==> 15 programs
-print("--------5 Exception handling----------")
+print(" ********************   5 Exception handling   ********************")
 
-# 6 File Handling  ==> 10 programs
-print("--------6 File Handling----------")
+print(" ********************   6 File Handling         ********************")
 
-# 7 Database interaction MVC  ==> 5 programs
-print("--------7 Database interaction----------")
+print(" ********************   7 Database interaction  ********************")
 
-
-
-# 8 UI Interaction   ==> 3 programs
-print("--------8 UI Interaction----------")
+print(" ********************   8 UI Interaction       ********************")

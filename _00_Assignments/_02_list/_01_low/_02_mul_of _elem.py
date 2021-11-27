@@ -1,58 +1,63 @@
-# P01 Req: sum of the elements in a list
+# Multiply of elements
+
+print("*********************   0.Mathematics          *********************")
+
+print("*********************   1. Builtin Functions   *********************")
+
+print(" ********************   2. Algorithm            ********************")
+
+print("****** method1 ********")
+
+list1 = [1, 2, 3, 4, 5]
+mul = 1
+for i in list1:
+    mul *= i
+print("multiply  of the list is:", mul)
+
+print("****** method2 ********")
+
+mul = 1
+list2 = []
+num = int(input('enter how many numbers to be inserted:'))
+for i in range(num):
+    elem = int(input("enter number :"))
+    list2.append(elem)
+print("list2   is  :", list2)
+
+for i in list2:
+    mul *= i
+print(" sum of the list is :", mul)
+
+print(" ********************   3 Using Functions       ********************")
+
+list2 = []
 
 
-'''
-1. CRUD       -->  Retrieval
-2. STATE      -->  list
-3. BEHAVIOR   -->    |  =   +=    |   for
-'''
-
-# 0. Mathematics 80%
-'''
-1. Define the list
-2. Take initial sum as 0
-3. Start reading it. 
-4. While reading each char, multiply  of the elements
-'''
-
-# 1.Builtin functions 80%
-
-print("-----1. Builtin Functions--------")
-
-list = [10,20,30,40,50]  # static way
-# message = input("Enter any string : ")
-
-print("sum of the list : ", sum(list))
+def mul_list(list):
+    mul = 1
+    for i in list2:
+         mul *= i
+    print(" sum of the list is :", mul)
 
 
-# 2. Algorithm  80%
-
-print("--------2. Algorithm----------")
-
-list = [1,2,3,4,5]
-mul  = 1
-for i in list:
-    mul *=i
-print("multiply  of the list is:",mul)
-
-# 3 Using Functions  ==> 50 programs
-print("--------3 Using Functions----------")
-
-
-
-# 4 OOPS              ==> 30 programs
-print("--------4 Object Oriented----------")
-
-# 5 Exception handling  ==> 15 programs
-print("--------5 Exception handling----------")
-
-# 6 File Handling  ==> 10 programs
-print("--------6 File Handling----------")
-
-# 7 Database interaction MVC  ==> 5 programs
-print("--------7 Database interaction----------")
+num = int(input('enter how many numbers to be inserted:'))
+for i in range(num):
+    elem = int(input("enter number :"))
+    list2.append(elem)
+print("list2   is  :", list2)
+mul_list(list2)
 
 
 
-# 8 UI Interaction   ==> 3 programs
-print("--------8 UI Interaction----------")
+
+
+
+print(" ********************   4 Object Oriented       ********************")
+
+print(" ********************   5 Exception handling   ********************")
+
+print(" ********************   6 File Handling         ********************")
+
+print(" ********************   7 Database interaction  ********************")
+
+print(" ********************   8 UI Interaction       ********************")

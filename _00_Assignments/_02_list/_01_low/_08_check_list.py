@@ -1,4 +1,4 @@
-# P01 Req: sum of the elements in a list
+ # P01 Req: sum of the elements in a list
 
 
 '''
@@ -28,7 +28,7 @@ print("empty list is:",len(list))
 print("--------2. Algorithm----------")
 
 list  = []
-if len(list) ==0:
+if len(list) == 0:
     print("empty list")
 else:
     print("not empty list")
